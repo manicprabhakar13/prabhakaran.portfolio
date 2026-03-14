@@ -200,7 +200,7 @@ const Hero = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/30 to-purple-500/30 rounded-[2.5rem] blur-[60px] animate-float" />
           <div className="relative aspect-square glass rounded-[2.5rem] overflow-hidden flex items-center justify-center group cursor-pointer border-white/20 shadow-2xl">
-            <div className="absolute inset-0 bg-[url('https://img.youtube.com/vi/Uh0KOaSsL8E/maxresdefault.jpg')] bg-cover bg-center opacity-30 group-hover:scale-105 transition-transform duration-1000" />
+            <div className="absolute inset-0 bg-[url('https://i.ytimg.com/vi/Uh0KOaSsL8E/hqdefault.jpg')] bg-cover bg-center opacity-30 group-hover:scale-105 transition-transform duration-1000" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
             
             <motion.div 
