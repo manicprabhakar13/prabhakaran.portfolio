@@ -200,14 +200,14 @@ const Hero = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/30 to-purple-500/30 rounded-[2.5rem] blur-[60px] animate-float" />
           <div className="relative aspect-square glass rounded-[2.5rem] overflow-hidden flex items-center justify-center group cursor-pointer border-white/20 shadow-2xl">
-            <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/tech-minimal/1200/1200')] bg-cover bg-center opacity-30 group-hover:scale-105 transition-transform duration-1000" />
+            <div className="absolute inset-0 bg-[url('https://img.youtube.com/vi/Uh0KOaSsL8E/maxresdefault.jpg')] bg-cover bg-center opacity-30 group-hover:scale-105 transition-transform duration-1000" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
             
             <motion.div 
               whileHover={{ scale: 1.1 }}
               className="relative z-10 w-24 h-24 bg-white/10 backdrop-blur-xl rounded-full flex items-center justify-center border border-white/30 shadow-2xl group-hover:bg-white/20 transition-all"
             >
-              <Play className="text-white fill-white ml-1" size={36} />
+             <Play className="text-white fill-white ml-1" size={36} onClick={() => window.open('https://youtu.be/Uh0KOaSsL8E', '_blank')} />
             </motion.div>
             
             <div className="absolute bottom-10 left-10 right-10 p-6 glass rounded-2xl border-white/20">
@@ -216,7 +216,7 @@ const Hero = () => {
                   <p className="text-xs font-bold text-blue-400 uppercase tracking-[0.2em] mb-1">Showreel 2024</p>
                   <p className="text-lg font-bold">Visualizing the Future</p>
                 </div>
-                <div className="text-zinc-500 text-xs font-mono">02:45</div>
+                <div className="text-zinc-500 text-xs font-mono">03:20</div>
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@ const About = () => {
                 className="w-full h-full object-cover hover:scale-105 transition-all duration-700"
                 referrerPolicy="no-referrer"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = "https://picsum.photos/seed/designer/800/1000";
+                  (e.target as HTMLImageElement).src = "https://img.youtube.com/vi/Uh0KOaSsL8E/maxresdefault.jpg";
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
