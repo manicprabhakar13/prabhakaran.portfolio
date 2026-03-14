@@ -29,6 +29,7 @@ import {
 import profile from "./assets/profile.jpg";
 import project1 from "./assets/project-1.jpg";
 import project2 from "./assets/project-2.jpg";
+import thumbnail from "./assets/thumbnail.jpg";
 // --- Components ---
 
 const VideoModal = ({ isOpen, onClose, videoUrl, title }: { isOpen: boolean, onClose: () => void, videoUrl: string, title: string }) => {
@@ -200,7 +201,7 @@ const Hero = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/30 to-purple-500/30 rounded-[2.5rem] blur-[60px] animate-float" />
           <div className="relative aspect-square glass rounded-[2.5rem] overflow-hidden flex items-center justify-center group cursor-pointer border-white/20 shadow-2xl">
-            <div className="absolute inset-0 bg-[url('/assets/thumbnail.jpg')] bg-cover bg-center opacity-30 group-hover:scale-105 transition-transform duration-1000" />
+            <div className="absolute inset-0 bg-[url('${thumbnail}')] bg-cover bg-center opacity-30 group-hover:scale-105 transition-transform duration-1000" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
             
             <motion.div 
